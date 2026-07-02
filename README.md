@@ -5,7 +5,7 @@ A React-based interface for DocuMind AI, a Retrieval-Augmented Generation (RAG) 
 
 Note: the backend is hosted on Railway. Some users on certain mobile networks (e.g. Jio) may intermittently see a DNS resolution error — a fix is in progress.
 
-🔗 Backend repo: github.com/itz-jestin/documind-backend
+🔗 Backend repo: https://github.com/itz-jestin/documind-ai
 
 Overview
 This frontend connects to the DocuMind AI backend to provide:
