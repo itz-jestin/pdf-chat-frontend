@@ -1,16 +1,35 @@
-# React + Vite
+DocuMind AI — Frontend
+A React-based interface for DocuMind AI, a Retrieval-Augmented Generation (RAG) application that lets users upload PDFs and ask natural-language questions about their content.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔗 Live demo: https://pdf-chat-frontend-seven.vercel.app/
+Note: the backend is hosted on Railway. Some users on certain mobile networks (e.g. Jio) may intermittently see a DNS resolution error — a fix is in progress.
+🔗 Backend repo: github.com/itz-jestin/documind-backend
+Overview
+This frontend connects to the DocuMind AI backend to provide:
+PDF upload and processing
+Chat-style Q&A over document content
+Real-time responses powered by an LLM via OpenRouter
+Tech Stack
+React — UI framework
+Vercel — deployment/hosting
+Fetch/Axios for API communication with the FastAPI backend
+Getting Started
+Prerequisites
+Node.js (v18+ recommended)
+npm or yarn
+Installation
+Bash
+Environment Variables
+Create a .env file in the root directory:
+Code
+Run Locally
+Bash
+The app will be available at http://localhost:3000.
+Build for Production
+Bash
+Project Structure
+Code
+Related
+Backend repo (FastAPI + RAG pipeline): documind-backend
+License
+MIT
